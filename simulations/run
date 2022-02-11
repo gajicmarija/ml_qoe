@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/ml_qoe -n .:../src $*
+# for shared lib, use: opp_run -l ../src/ml_qoe -n .:../src $*
